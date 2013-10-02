@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="11aec74a-4064-4ab7-987b-6e59c1cf6bf5"
+  name="BRE_Modelos UML" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="314afd44-d5c3-477e-afbc-441ff0e26d89"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="a7bb3312-7069-49da-ae67-11328442f5af"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3011a991-dfb9-40c7-984a-111b873cda18"
+                LastKnownName="Lifeline1"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="bf9fbe77-ad91-41a1-b058-3fa192e7b115"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3d5e1bc2-51ff-479f-bf5b-3abf9d5cf7e2"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="0df87b66-0271-4b76-b319-ede9fc514127"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="69cc8ec5-3334-4710-8be3-4ccddca995ee"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3d5e1bc2-51ff-479f-bf5b-3abf9d5cf7e2"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c0143891-52d1-4564-8cd6-3d119f8b6357"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="BRE_Modelos UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3011a991-dfb9-40c7-984a-111b873cda18"
+                LastKnownName="Lifeline1"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="82fbdc15-b391-4cd2-b253-3db4601a99f3"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="d4f6a779-5b32-4f8b-8725-1fd67df7a6e7"
+                LastKnownName="Usuario"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0df87b66-0271-4b76-b319-ede9fc514127"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="3011a991-dfb9-40c7-984a-111b873cda18"
+                LastKnownName="Lifeline1"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="69cc8ec5-3334-4710-8be3-4ccddca995ee"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="3011a991-dfb9-40c7-984a-111b873cda18"
+                LastKnownName="Lifeline1"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3dd6d994-236f-48c5-b917-488150be5b4c"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="d4f6a779-5b32-4f8b-8725-1fd67df7a6e7"
+                LastKnownName="Usuario"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="bf9fbe77-ad91-41a1-b058-3fa192e7b115"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5e6eb87e-62c3-4020-abff-2e855c5e75d8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="BRE_Modelos UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3011a991-dfb9-40c7-984a-111b873cda18"
+                LastKnownName="Lifeline1"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="d4f6a779-5b32-4f8b-8725-1fd67df7a6e7"
+            name="Usuario"
+            isActor="false"
+            lifelineDisplayName="Usuario">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="82fbdc15-b391-4cd2-b253-3db4601a99f3"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3dd6d994-236f-48c5-b917-488150be5b4c"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="3011a991-dfb9-40c7-984a-111b873cda18"
+            name="Lifeline1"
+            isActor="false"
+            lifelineDisplayName="Lifeline1">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="3d5e1bc2-51ff-479f-bf5b-3abf9d5cf7e2"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="bf9fbe77-ad91-41a1-b058-3fa192e7b115"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="9608953c-1add-4c65-bf32-ec4f1d6c1432"
+            name="Message1"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="82fbdc15-b391-4cd2-b253-3db4601a99f3"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0df87b66-0271-4b76-b319-ede9fc514127"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9b17b03d-2f75-48ba-8f9a-3203d513ca04"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="69cc8ec5-3334-4710-8be3-4ccddca995ee"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3dd6d994-236f-48c5-b917-488150be5b4c"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="BRE_Modelos UML.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c0143891-52d1-4564-8cd6-3d119f8b6357"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5e6eb87e-62c3-4020-abff-2e855c5e75d8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
